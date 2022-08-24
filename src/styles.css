@@ -5,12 +5,48 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.general-content {
+  font-family: "Mali", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+.intro {
+  background-color: var(--first-color);
+  color: white;
+}
+
+.intro-text {
+  padding-top: 70px;
+  padding-left: 90px;
+}
+
+.contact-me-button {
+}
+
 .solomiia-photo {
   display: flex;
-  max-width: 300px;
+  max-width: 295px;
   position: relative;
-  left: 60%;
-  top: -80px;
+  margin-left: 60%;
+  margin-top: -180px;
+  padding-bottom: 20px;
+}
+
+.main-part {
+  background-color: var(--second-color);
+  color: var(--third-color);
 }
 
 .weather-app,
