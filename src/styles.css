@@ -28,13 +28,13 @@ h3 {
 }
 
 .intro-text {
-  padding-top: 90px;
+  padding-top: 110px;
   padding-left: 20px;
 }
 
 .contact-me-button {
   padding: 15px;
-  margin-top: 15px;
+  margin-top: 25px;
   background-color: var(--second-color);
   border: 1px solid var(--second-color);
   border-radius: 2px;
@@ -48,7 +48,7 @@ h3 {
 
 .solomiia-photo {
   display: flex;
-  max-width: 300px;
+  max-width: 280px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-left: 50px;
@@ -61,8 +61,38 @@ h3 {
 
 .weather-app,
 .bike-polo {
-  max-width: 500px;
+  max-width: 450px;
   display: flex;
+  border: 1px solid transparent;
+  border-radius: 12px;
+}
+
+.project-button {
+  padding: 15px;
+  background-color: var(--first-color);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--first-color);
+  border-radius: 5px;
+}
+
+.weather-app-link,
+.bike-polo-link {
+  color: wheat;
+  text-decoration: none;
+}
+
+.contact-me-general {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact-mail {
+  color: var(--third-color);
+  font-size: 30px;
+}
+
+.social-media {
+  color: white;
 }
 
 @media (max-width: 600px) {
