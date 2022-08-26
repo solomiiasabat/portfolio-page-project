@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="src/styles.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
@@ -29,20 +28,57 @@
     ></script>
     <title>About me page - Solomiia Sabat</title>
   </head>
-  <body>
-    <div class="timeline">
-      <div class="container left">
-        <div class="content">
-          <h2>2017</h2>
-          <p>Lorem ipsum..</p>
-        </div>
-      </div>
-      <div class="container right">
-        <div class="content">
-          <h2>2016</h2>
-          <p>Lorem ipsum..</p>
-        </div>
-      </div>
+  <body class="intro">
+    <div class="general-content container">
+      <h1 class="text-center pt-4">About me</h1>
+      <ul class="timeline">
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Freelancer</span>
+              <span class="time-wrapper"
+                ><span class="time">2013 - present</span></span
+              >
+            </div>
+            <div class="desc">
+              My current employment. Way better than the position before!
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Apple Inc.</span>
+              <span class="time-wrapper"
+                ><span class="time">2011 - 2013</span></span
+              >
+            </div>
+            <div class="desc">
+              My first employer. All the stuff I've learned and projects I've
+              been working on.
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Harvard University</span>
+              <span class="time-wrapper"
+                ><span class="time">2008 - 2011</span></span
+              >
+            </div>
+            <div class="desc">
+              A description of all the lectures and courses I have taken and my
+              final degree?
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
