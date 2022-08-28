@@ -125,6 +125,10 @@ h3 {
     padding-top: 50px;
     padding-left: none;
   }
+
+  .contact-mail {
+    font-size: 25px;
+  }
 }
 
 /* ================ The Timeline ================ */
