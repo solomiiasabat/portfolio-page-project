@@ -95,10 +95,35 @@ h3 {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
+  
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  
   .solomiia-photo {
-    left: auto;
     top: auto;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: 75px;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+  .weather-app, .bike-polo {
+    max-width: 300px;
+    padding-bottom: 10px;
+  }
+
+  .intro-text {
+    padding-top: 50px;
+    padding-left: none;
   }
 }
 
